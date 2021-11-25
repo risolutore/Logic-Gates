@@ -245,7 +245,7 @@ class ByteAdder():
 Example Usage:
 ba = FullAdder()
 ba.setInputsA(0,0,0,1,1,0,1,0)
-fba.setInputsB(0,0,0,0,1,1,1,0)
+ba.setInputsB(0,0,0,0,1,1,1,0)
 ba.performSum()
 print(ba.getSum())
 """
